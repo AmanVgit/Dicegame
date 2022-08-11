@@ -4,7 +4,8 @@ Toss game using Dice. Used Html, CSS, JavaScript for the project.
 # Deployement
 ### Deployed Website: https://amanvgit.github.io/Tindog/
 
-![tindog img](https://user-images.githubusercontent.com/88731279/182023267-9716fd34-f7a1-4b79-81e3-1a7e5590b366.png)
+![dice game](https://user-images.githubusercontent.com/88731279/184209736-547ddc5e-ef15-46d4-be84-c50e9c070857.png)
+
 # Built With
 * HTML
 * CSS
