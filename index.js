@@ -1,6 +1,6 @@
 var btn = document.getElementById('btn');
-btn.addEventListener("click", function refresh()
-{
+btn.addEventListener("click", refresh)
+ function refresh(){
 
     var x = Math.random();
     var y = Math.floor((x * 6) + 1);
@@ -15,14 +15,15 @@ btn.addEventListener("click", function refresh()
     var randomImageSource2 = "images" + '\\' + randomImage2;
     var image2 = document.querySelectorAll("img")[1];
     image2.setAttribute("src", randomImageSource2);
-});
 
-if (b < y) {
-    document.querySelector("h1").innerHTML = "🚩Player 1 wins!";
-}
-else if (b > y) {
-    document.querySelector("h1").innerHTML = "Player 2 wins!🚩";
-}
-else {
-    document.querySelector("h1").innerHTML = "🚩DRAW🚩";
-}
+    if (b < y) {
+        document.querySelector("h1").innerHTML = "🚩Player 1 wins!";
+    }
+    else if (b > y) {
+        document.querySelector("h1").innerHTML = "Player 2 wins!🚩";
+    }
+    else {
+        document.querySelector("h1").innerHTML = "🚩DRAW🚩";
+    }
+
+};
